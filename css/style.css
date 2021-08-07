@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.dropdown-css {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-css {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-css:hover .dropdown-content-css {
+  display: block;
+}
+
+/* batas ye */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown2 {
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+} */
+
+
+h1 {
+  color: white;
+}
+
+img {
+  width: 250px;
+  /* margin-left: auto; */
+}
+
+.div {
+  padding: 50px 850px 10px 50px;
+}
+
+.div-p {
+  padding: 30px 850px 110px 50px;
+  color: white;
+}
+
+.container-div {
+  background-image: url("img/dunia.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.ft {
+  padding: 50px;
+}
+
+.ft-about {
+  padding: 20px 60px 20px 60px;
+}
+
+.par {
+  padding: 10px 60px 10px 60px;
+}
+
+.border-radius {
+  border-radius: 12px;
+}
+
+.button {
+  background-color: #5fd1c5;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+
+.button2 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+
+.button3 {
+  background-color: #ff921e;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button2:hover {
+  background-color: #ff921e;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #012d57;
+  color: white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: black;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.nav-tr {
+  transition-duration: 0.4s;
+}
+
+.box {
+  width: 300px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.nav1 {
+  color: #cacaca;
+}
+
+.nav1:hover {
+  color: white;
+}
+
+.nav2 {
+  color: black;
+}
+
+.nav2:hover {
+  color: #ff921e;
+}
+
+.footer {
+  background-color: #ff921e;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+/* icon sosmed */
+
+.social-round-icon {
+  border: 1px solid white;
+  border-radius: 50px;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear
+}
+
+.social-round-icon:hover {
+  background-color: white;
+  color: #ff921e;
+  border-color: #ff921e
+}
+
+.social-round-icon.white-round-icon {
+  border: 1px solid white;
+  color: #fff
+}
+
+.social-round-icon.white-round-icon:hover {
+  background-color: #fff;
+  color: #1763e9;
+  border-color: #fff
+}
+
+.fa-icon {
+  color: white;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 15px;
+  text-align: center
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: inherit;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.text {
+  padding: 10px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.ntext {
+  text-align: center;
+  padding: 10px 78px 10px 78px;
+}
